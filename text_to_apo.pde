@@ -41,6 +41,8 @@ void setup(){
 
   params = expand(params, params.length + 1);
   params[params.length - 1] = p3;
+  params = expand(params, params.length + 1);
+  params[params.length - 1] = p4;
   saveStrings(filename, params);
   println("SAVED");
 
